@@ -1,4 +1,4 @@
-import React from "react";
+import Resume from "../assets/Resume - Developer.pdf";
 import {
   Mail,
   Linkedin,
@@ -116,10 +116,12 @@ const Contact = () => {
                     Get a detailed overview of my experience, skills, and
                     projects in a professionally formatted resume.
                   </p>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2 w-full justify-center font-mono text-sm sm:text-base">
-                    <Download size={20} />
-                    Download PDF Resume
-                  </button>
+                  <a href={Resume} target="_blank">
+                    <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2 w-full justify-center font-mono text-sm sm:text-base">
+                      <Download size={20} />
+                      Download PDF Resume
+                    </button>
+                  </a>
                 </div>
               </div>
 
